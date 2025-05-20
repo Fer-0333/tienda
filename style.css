@@ -1,5 +1,5 @@
 body {
-font-family:sans-serif;
+font-family: sans-serif;
 margin: 0;
 padding: 0; 
 background-color:#f4f4f4 ;
@@ -19,14 +19,14 @@ main {
  padding:20px;
 }
 
-#productos {
+#productos {       /* Ojo! de la misma forma como lo escribes en html, debe ir en CSS */
  display: flex;
  flex-wrap: wrap;
- justify-content:center;
- max-width:70%;
+ justify-content: center;
+ max-width: 70%;
 }
 
-.producto {
+.producto {   /* Ojo! de la misma forma como lo escribes en html, debe ir en CSS */
 background-color: #fff;
 border: 1px solid #ddd;
 margin: 10px;
@@ -36,17 +36,17 @@ width:200px;
 box-shadow:0 2pax 4pax rgba (0,0,0,0.1);
 }
 
-.producto img {
+.producto img {  /* Ojo! de la misma forma como lo escribes en html, debe ir en CSS */
 max-width: 100%;
-height:auto;
-margin-botoom:10px;
+height: auto;
+margin-botoom:10px; /* Así no se escribe bottom */
 }
 
 #carrito{
  background-color: #fff;
  border:1px solid #ddd;
  padding:20px;
- text-align:center;
+ text-align: center;
  width:28%;
 }
 
@@ -57,7 +57,7 @@ margin-botoom:10px;
 
 #lista-carrito li {
 display: flex;
-justify-content:space-between;
+justify-content: space-between;
 marigin-bottom:5px;
 }
 
@@ -76,7 +76,7 @@ margin:20px auto;
 
 #items-fatura div {
   dispaly:flex;
-  justify-content:space-beteween;
+  justify-content: space-beteween;
   margin-bottom: 5px;
 }
 
